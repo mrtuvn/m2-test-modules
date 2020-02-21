@@ -1,0 +1,9 @@
+<p><?= __('123123') ?></p>
+<p><?= $block->escapeHtml('Html Text Test') ?></p>
+<script>
+    require([
+        'Tuna_Frontend/js/child',
+    ], function() {
+        console.log('test call parent from child');
+    });
+</script>
