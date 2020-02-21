@@ -12,11 +12,12 @@ define([
         initialize: function() {
             this._super();
             var self = this;
+            var len = 100;
 
-            window.setInterval(function() {
-                var newValue = self.temp() + 1;
+            for (var i=0; i < len; i++) {
+                var newValue = self.temp() + i;
                 self.temp(newValue);
-            }, 2000);
+            }
         },
 
         getTemp: function() {

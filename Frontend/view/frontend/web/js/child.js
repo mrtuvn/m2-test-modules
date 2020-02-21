@@ -7,6 +7,7 @@ require([
         console.log('The new value of temp is : ' + value);
     });
 
+    console.log('last temp value: ' + parent().getTemp());
     //console.log('value from parent : ' + tempFromChild);
 
 
