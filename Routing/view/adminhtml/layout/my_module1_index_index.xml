@@ -9,6 +9,7 @@
     <body>
         <referenceContainer name="content">
             <block class="Magento\Framework\View\Element\Template" name="admin_dummy" template="Tuna_Routing::admin-dummy.phtml"/>
+            <block class="Magento\Framework\View\Element\Template" name="admin_dummy2" template="Tuna_Routing::admin-dummy-2.phtml"/>
         </referenceContainer>
     </body>
 </page>
