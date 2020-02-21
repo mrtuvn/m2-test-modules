@@ -17,7 +17,7 @@ use Magento\Framework\Controller\ResultFactory;
 class Index extends Action implements HttpGetActionInterface
 {
     public function execute()
-    {echo 'wtf';die;
+    {
         return $this->resultFactory->create(ResultFactory::TYPE_PAGE);
     }
 }
